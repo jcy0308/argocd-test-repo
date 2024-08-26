@@ -5,10 +5,6 @@ metadata:
   namespace: argocd
 spec:
   project: default
-  # source:
-  #   repoURL: https://github.com/jcy0308/argocd-test-repo.git
-  #   targetRevision: HEAD
-  #   path: test
   destination:
     server: https://kubernetes.default.svc
     namespace: test
