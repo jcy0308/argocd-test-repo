@@ -16,7 +16,7 @@ spec:
     drySource:
       repoURL: https://github.com/jcy0308/argocd-test-repo.git
       targetRevision: HEAD
-      path: test
+      path: .
     syncSource:
       targetBranch: hydrator/e2e
       path: .
